@@ -48,5 +48,12 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    hotMiddleware: {
+      client: {
+        // Silence! console messages
+        quiet: true,
+      },
+    },
+  },
 }

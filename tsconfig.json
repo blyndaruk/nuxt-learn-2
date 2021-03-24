@@ -10,11 +10,13 @@
     ],
     "esModuleInterop": true,
     "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
+    "plugins": [{ "name": "ts-vue-plugin" }],
     "paths": {
       "~/*": [
         "./*"
